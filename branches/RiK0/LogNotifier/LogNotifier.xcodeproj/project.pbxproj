@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		3F0573150AFE7515005BEAB0 /* FileMonitorTest.py */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.python; name = FileMonitorTest.py; path = tests/FileMonitorTest.py; sourceTree = "<group>"; };
+		3F0573160AFE7515005BEAB0 /* FileObserverTest.py */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.python; name = FileObserverTest.py; path = tests/FileObserverTest.py; sourceTree = "<group>"; };
+		3F0573170AFE7515005BEAB0 /* GrowlNotifierTest.py */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.python; name = GrowlNotifierTest.py; path = tests/GrowlNotifierTest.py; sourceTree = "<group>"; };
+		3F0573180AFE7515005BEAB0 /* PreferenceModelTest.py */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.python; name = PreferenceModelTest.py; path = tests/PreferenceModelTest.py; sourceTree = "<group>"; };
+		3F05731F0AFE7583005BEAB0 /* PreferenceBackend.py */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.python; path = PreferenceBackend.py; sourceTree = "<group>"; };
+		3F0573200AFE7583005BEAB0 /* PreferenceModel.py */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.python; path = PreferenceModel.py; sourceTree = "<group>"; };
+		3F0573270AFE798E005BEAB0 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3F0573290AFE798E005BEAB0 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F05732A0AFE79A2005BEAB0 /* LogNotifier.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = LogNotifier.icns; sourceTree = "<group>"; };
+		3F3586AE0AED6644009FE867 /* FileMonitor.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = FileMonitor.py; sourceTree = "<group>"; };
+		3F51CA530AF6071A00D7EDCC /* Alarm.py */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.python; path = Alarm.py; sourceTree = "<group>"; };
+		3F51CA550AF6071A00D7EDCC /* FileObserver.py */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.python; path = FileObserver.py; sourceTree = "<group>"; };
+		3F51CA560AF6071A00D7EDCC /* Notifier.py */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.python; path = Notifier.py; sourceTree = "<group>"; };
+		3F51CA570AF6071A00D7EDCC /* SingletonDecorator.py */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.python; path = SingletonDecorator.py; sourceTree = "<group>"; };
+		3F51CA580AF6074A00D7EDCC /* FileTestHelper.py */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.python; name = FileTestHelper.py; path = tests/FileTestHelper.py; sourceTree = "<group>"; };
+		3F51CA700AF6082500D7EDCC /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Growl-WithInstaller.framework"; sourceTree = "<group>"; };
+		3F51CA710AF6082500D7EDCC /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		3F51CAC70AF6116100D7EDCC /* Growl.py */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.python; name = Growl.py; path = "/Library/Python/2.3/site-packages/Growl.py"; sourceTree = "<absolute>"; };
+		3F51CAC80AF6116D00D7EDCC /* _growl.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = _growl.so; path = "/Library/Python/2.3/site-packages/_growl.so"; sourceTree = "<absolute>"; };
+		3F51CAC90AF6116D00D7EDCC /* _growlImage.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = _growlImage.so; path = "/Library/Python/2.3/site-packages/_growlImage.so"; sourceTree = "<absolute>"; };
+		C4D2A00A07FF563C00EDA198 /* setup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+		C4D2A00E07FF576900EDA198 /* LogNotifier.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = LogNotifier.py; sourceTree = "<group>"; };
+		C4D2A01307FF5B0900EDA198 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		C4D2A03507FF5BF800EDA198 /* LogNotifierAppDelegate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = LogNotifierAppDelegate.py; sourceTree = "<group>"; };
+		C4E30E3107FFA7A90043E6B0 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3F3586BA0AED6DE0009FE867 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				3F51CA580AF6074A00D7EDCC /* FileTestHelper.py */,
+				3F0573150AFE7515005BEAB0 /* FileMonitorTest.py */,
+				3F0573160AFE7515005BEAB0 /* FileObserverTest.py */,
+				3F0573170AFE7515005BEAB0 /* GrowlNotifierTest.py */,
+				3F0573180AFE7515005BEAB0 /* PreferenceModelTest.py */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		3F51CA640AF6080700D7EDCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F51CA700AF6082500D7EDCC /* Growl-WithInstaller.framework */,
+				3F51CA710AF6082500D7EDCC /* Growl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F51CA9A0AF610B400D7EDCC /* Imports */ = {
+			isa = PBXGroup;
+			children = (
+				3F51CAC70AF6116100D7EDCC /* Growl.py */,
+				3F51CAC80AF6116D00D7EDCC /* _growl.so */,
+				3F51CAC90AF6116D00D7EDCC /* _growlImage.so */,
+			);
+			name = Imports;
+			sourceTree = "<group>";
+		};
+		C4D29FE007FF53B000EDA198 = {
+			isa = PBXGroup;
+			children = (
+				3F51CA9A0AF610B400D7EDCC /* Imports */,
+				3F51CA640AF6080700D7EDCC /* Frameworks */,
+				3F3586BA0AED6DE0009FE867 /* Test */,
+				C4D2A00607FF55F400EDA198 /* Classes */,
+				C4D2A00507FF55D000EDA198 /* Main Script */,
+				C4D2A00407FF55C400EDA198 /* Resources */,
+				C4D2A01507FF5B3B00EDA198 /* Other Source */,
+			);
+			sourceTree = "<group>";
+		};
+		C4D2A00407FF55C400EDA198 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2A01407FF5B1C00EDA198 /* MainMenu.nib */,
+				3F0573260AFE798E005BEAB0 /* Credits.rtf */,
+				3F0573280AFE798E005BEAB0 /* InfoPlist.strings */,
+				3F05732A0AFE79A2005BEAB0 /* LogNotifier.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C4D2A00507FF55D000EDA198 /* Main Script */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2A00E07FF576900EDA198 /* LogNotifier.py */,
+			);
+			name = "Main Script";
+			sourceTree = "<group>";
+		};
+		C4D2A00607FF55F400EDA198 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3F51CA530AF6071A00D7EDCC /* Alarm.py */,
+				3F51CA550AF6071A00D7EDCC /* FileObserver.py */,
+				3F51CA560AF6071A00D7EDCC /* Notifier.py */,
+				3F51CA570AF6071A00D7EDCC /* SingletonDecorator.py */,
+				3F3586AE0AED6644009FE867 /* FileMonitor.py */,
+				C4D2A03507FF5BF800EDA198 /* LogNotifierAppDelegate.py */,
+				3F05731F0AFE7583005BEAB0 /* PreferenceBackend.py */,
+				3F0573200AFE7583005BEAB0 /* PreferenceModel.py */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		C4D2A01507FF5B3B00EDA198 /* Other Source */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2A00A07FF563C00EDA198 /* setup.py */,
+				C4E30E3107FFA7A90043E6B0 /* Info.plist */,
+			);
+			name = "Other Source";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		C430F00A07FFB82B00A1CD60 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "\"$(SOURCE_ROOT)/setup.py\" py2app";
+			buildConfigurationList = 3F3586A20AED660D009FE867 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/env;
+			buildWorkingDirectory = "$(SOURCE_ROOT)";
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+		C49FE1AD07FFBCAA005B49ED /* Development */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "\"$(SOURCE_ROOT)/setup.py\" py2app --alias";
+			buildConfigurationList = 3F35869E0AED660D009FE867 /* Build configuration list for PBXLegacyTarget "Development" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/env;
+			buildWorkingDirectory = /;
+			dependencies = (
+			);
+			name = Development;
+			passBuildSettingsInEnvironment = 1;
+			productName = Development;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		C4D29FE407FF53B000EDA198 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3F3586A60AED660D009FE867 /* Build configuration list for PBXProject "LogNotifier" */;
+			hasScannedForEncodings = 0;
+			mainGroup = C4D29FE007FF53B000EDA198;
+			productRefGroup = C4D29FE007FF53B000EDA198;
+			projectDirPath = "";
+			targets = (
+				C49FE1AD07FFBCAA005B49ED /* Development */,
+				C430F00A07FFB82B00A1CD60 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXVariantGroup section */
+		3F0573260AFE798E005BEAB0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0573270AFE798E005BEAB0 /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3F0573280AFE798E005BEAB0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0573290AFE798E005BEAB0 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4D2A01407FF5B1C00EDA198 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4D2A01307FF5B0900EDA198 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F35869F0AED660D009FE867 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Development;
+		};
+		3F3586A00AED660D009FE867 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Deployment;
+		};
+		3F3586A10AED660D009FE867 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		3F3586A30AED660D009FE867 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Development;
+		};
+		3F3586A40AED660D009FE867 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Deployment;
+		};
+		3F3586A50AED660D009FE867 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		3F3586A70AED660D009FE867 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		3F3586A80AED660D009FE867 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		3F3586A90AED660D009FE867 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F35869E0AED660D009FE867 /* Build configuration list for PBXLegacyTarget "Development" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F35869F0AED660D009FE867 /* Development */,
+				3F3586A00AED660D009FE867 /* Deployment */,
+				3F3586A10AED660D009FE867 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		3F3586A20AED660D009FE867 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3586A30AED660D009FE867 /* Development */,
+				3F3586A40AED660D009FE867 /* Deployment */,
+				3F3586A50AED660D009FE867 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		3F3586A60AED660D009FE867 /* Build configuration list for PBXProject "LogNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3586A70AED660D009FE867 /* Development */,
+				3F3586A80AED660D009FE867 /* Deployment */,
+				3F3586A90AED660D009FE867 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4D29FE407FF53B000EDA198 /* Project object */;
+}
