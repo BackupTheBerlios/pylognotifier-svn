@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = LogNotifierAppDelegate; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {reloadPreferences = id; }; 
+            CLASS = NotifierController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                add = id; 
+                cancel = id; 
+                loadPreferences = id; 
+                openWindow = id; 
+                remove = id; 
+                savePreferences = id; 
+            }; 
+            CLASS = PreferenceManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                logList = NSTableView; 
+                regrowlButton = id; 
+                saveButton = id; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

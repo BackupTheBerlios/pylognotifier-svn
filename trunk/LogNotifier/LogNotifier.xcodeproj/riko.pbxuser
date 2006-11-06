@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	3F05726A0AFD06D0005BEAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "LogNotifierAppDelegate.py: 97";
+		rLen = 0;
+		rLoc = 3021;
+		rType = 0;
+		vrLen = 236;
+		vrLoc = 578;
+	};
+	3F05731F0AFE7583005BEAB0 /* PreferenceBackend.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {847, 592}}";
+			sepNavSelRange = "{22, 0}";
+			sepNavVisRect = "{{0, 0}, {847, 537}}";
+		};
+	};
+	3F0573290AFE798E005BEAB0 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {847, 537}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {847, 537}}";
+		};
+	};
+	3F0573330AFE8014005BEAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F3586AE0AED6644009FE867 /* FileMonitor.py */;
+		name = "FileMonitor.py: 1";
+		rLen = 129;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 0;
+	};
+	3F0573340AFE8014005BEAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4D2A03507FF5BF800EDA198 /* LogNotifierAppDelegate.py */;
+		name = "LogNotifierAppDelegate.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 0;
+	};
+	3F0573350AFE8014005BEAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F05731F0AFE7583005BEAB0 /* PreferenceBackend.py */;
+		name = "PreferenceBackend.py: 2";
+		rLen = 0;
+		rLoc = 22;
+		rType = 0;
+		vrLen = 930;
+		vrLoc = 0;
+	};
+	3F0573360AFE8014005BEAB0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3F05732A0AFE79A2005BEAB0 /* LogNotifier.icns */;
+	};
+	3F0573370AFE8014005BEAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F0573290AFE798E005BEAB0 /* English */;
+		name = "English: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 198;
+		vrLoc = 0;
+	};
+	3F0573380AFE8014005BEAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4E30E3107FFA7A90043E6B0 /* Info.plist */;
+		name = Icon;
+		rLen = 4;
+		rLoc = 381;
+		rType = 0;
+		vrLen = 1138;
+		vrLoc = 0;
+	};
+	3F0573390AFE8014005BEAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F3586AE0AED6644009FE867 /* FileMonitor.py */;
+		name = "FileMonitor.py: 1";
+		rLen = 129;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 0;
+	};
+	3F05733A0AFE8014005BEAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4D2A03507FF5BF800EDA198 /* LogNotifierAppDelegate.py */;
+		name = "LogNotifierAppDelegate.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 0;
+	};
+	3F05733B0AFE8014005BEAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F05731F0AFE7583005BEAB0 /* PreferenceBackend.py */;
+		name = "PreferenceBackend.py: 2";
+		rLen = 0;
+		rLoc = 22;
+		rType = 0;
+		vrLen = 930;
+		vrLoc = 0;
+	};
+	3F05733C0AFE8014005BEAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4E30E3107FFA7A90043E6B0 /* Info.plist */;
+		name = Icon;
+		rLen = 4;
+		rLoc = 381;
+		rType = 0;
+		vrLen = 1138;
+		vrLoc = 0;
+	};
+	3F05733D0AFE8014005BEAB0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3F05732A0AFE79A2005BEAB0 /* LogNotifier.icns */;
+	};
+	3F05733E0AFE8014005BEAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F0573290AFE798E005BEAB0 /* English */;
+		name = "English: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 198;
+		vrLoc = 0;
+	};
+	3F05735F0AFF3DBD005BEAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4E30E3107FFA7A90043E6B0 /* Info.plist */;
+		name = "Info.plist: 43";
+		rLen = 0;
+		rLoc = 1348;
+		rType = 0;
+		vrLen = 1138;
+		vrLoc = 0;
+	};
+	3F3586AA0AED660D009FE867 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 1;
+		scmConfiguration = {
+			SubversionToolPath = /opt/local/bin/svn;
+		};
+		scmType = scm.subversion;
+	};
+	3F3586AB0AED660D009FE867 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3F3586AE0AED6644009FE867 /* FileMonitor.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {847, 976}}";
+			sepNavSelRange = "{0, 129}";
+			sepNavVisRect = "{{0, 0}, {847, 537}}";
+		};
+	};
+	3F51CA680AF6080E00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "FileMonitor.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 196;
+		vrLoc = 0;
+	};
+	3F51CA690AF6080E00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "test_FileMonitor.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 234;
+		vrLoc = 0;
+	};
+	3F51CA9C0AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F51CA9D0AF610BA00D7EDCC /* GrowlApplicationBridge.h */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 341;
+		vrLoc = 0;
+	};
+	3F51CA9D0AF610BA00D7EDCC /* GrowlApplicationBridge.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = GrowlApplicationBridge.h;
+		path = /Users/riko/src/LogNotifier/Growl.framework/Headers/GrowlApplicationBridge.h;
+		sourceTree = "<absolute>";
+	};
+	3F51CA9E0AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "test_FileObserver.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 198;
+		vrLoc = 0;
+	};
+	3F51CA9F0AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "test_FileMonitor.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 703;
+		vrLoc = 0;
+	};
+	3F51CAA30AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "SingletonDecorator.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 0;
+	};
+	3F51CAA70AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4D2A00A07FF563C00EDA198 /* setup.py */;
+		name = "setup.py: 63";
+		rLen = 0;
+		rLoc = 1290;
+		rType = 0;
+		vrLen = 706;
+		vrLoc = 613;
+	};
+	3F51CAA90AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4E30E3107FFA7A90043E6B0 /* Info.plist */;
+		name = "Info.plist: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 0;
+	};
+	3F51CAAA0AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3F51CAAB0AF610BA00D7EDCC /* GrowlApplicationBridge.h */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 341;
+		vrLoc = 0;
+	};
+	3F51CAAB0AF610BA00D7EDCC /* GrowlApplicationBridge.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = GrowlApplicationBridge.h;
+		path = /Users/riko/src/LogNotifier/Growl.framework/Headers/GrowlApplicationBridge.h;
+		sourceTree = "<absolute>";
+	};
+	3F51CAAC0AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "test_FileObserver.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 198;
+		vrLoc = 0;
+	};
+	3F51CAAD0AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "FileGrowler.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 314;
+		vrLoc = 0;
+	};
+	3F51CAAE0AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "Notifier.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 166;
+		vrLoc = 0;
+	};
+	3F51CAAF0AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "SingletonDecorator.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 0;
+	};
+	3F51CAB10AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "LogNotifierAppDelegate.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 207;
+		vrLoc = 0;
+	};
+	3F51CAB50AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "FileObserver.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1120;
+		vrLoc = 0;
+	};
+	3F51CAB70AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "Alarm.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 237;
+		vrLoc = 0;
+	};
+	3F51CAC40AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4D2A00E07FF576900EDA198 /* LogNotifier.py */;
+		name = "LogNotifier.py: 15";
+		rLen = 0;
+		rLoc = 309;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 0;
+	};
+	3F51CAC50AF610BA00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4D2A00A07FF563C00EDA198 /* setup.py */;
+		name = "setup.py: 63";
+		rLen = 0;
+		rLoc = 1290;
+		rType = 0;
+		vrLen = 706;
+		vrLoc = 613;
+	};
+	3F51CB8B0AF68C8B00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "Growl.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1059;
+		vrLoc = 0;
+	};
+	3F51CB8C0AF68C8B00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "FileGrowler.py: 5";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 308;
+		vrLoc = 0;
+	};
+	3F51CB8F0AF68C8B00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "Notifier.py: 7";
+		rLen = 0;
+		rLoc = 116;
+		rType = 0;
+		vrLen = 192;
+		vrLoc = 0;
+	};
+	3F51CB900AF68C8B00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "FileObserver.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1321;
+		vrLoc = 131;
+	};
+	3F51CB910AF68C8B00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "Alarm.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 237;
+		vrLoc = 0;
+	};
+	3F51CB920AF68C8B00D7EDCC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4D2A00E07FF576900EDA198 /* LogNotifier.py */;
+		name = "LogNotifier.py: 5";
+		rLen = 0;
+		rLoc = 37;
+		rType = 0;
+		vrLen = 394;
+		vrLoc = 0;
+	};
+	C430F00A07FFB82B00A1CD60 /* Deployment */ = {
+		activeExec = 0;
+	};
+	C49FE1AD07FFBCAA005B49ED /* Development */ = {
+		activeExec = 0;
+	};
+	C4D29FE407FF53B000EDA198 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeTarget = C49FE1AD07FFBCAA005B49ED /* Development */;
+		addToTargets = (
+			C49FE1AD07FFBCAA005B49ED /* Development */,
+			C430F00A07FFB82B00A1CD60 /* Deployment */,
+		);
+		codeSenseManager = 3F3586AB0AED660D009FE867 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					545,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					248,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 184448245;
+			PBXWorkspaceStateSaveDate = 184448245;
+		};
+		perUserProjectItems = {
+			3F05726A0AFD06D0005BEAB0 /* PBXTextBookmark */ = 3F05726A0AFD06D0005BEAB0 /* PBXTextBookmark */;
+			3F0573330AFE8014005BEAB0 /* PBXTextBookmark */ = 3F0573330AFE8014005BEAB0 /* PBXTextBookmark */;
+			3F0573340AFE8014005BEAB0 /* PBXTextBookmark */ = 3F0573340AFE8014005BEAB0 /* PBXTextBookmark */;
+			3F0573350AFE8014005BEAB0 /* PBXTextBookmark */ = 3F0573350AFE8014005BEAB0 /* PBXTextBookmark */;
+			3F0573360AFE8014005BEAB0 /* PBXBookmark */ = 3F0573360AFE8014005BEAB0 /* PBXBookmark */;
+			3F0573370AFE8014005BEAB0 /* PBXTextBookmark */ = 3F0573370AFE8014005BEAB0 /* PBXTextBookmark */;
+			3F0573380AFE8014005BEAB0 /* PBXTextBookmark */ = 3F0573380AFE8014005BEAB0 /* PBXTextBookmark */;
+			3F0573390AFE8014005BEAB0 /* PBXTextBookmark */ = 3F0573390AFE8014005BEAB0 /* PBXTextBookmark */;
+			3F05733A0AFE8014005BEAB0 /* PBXTextBookmark */ = 3F05733A0AFE8014005BEAB0 /* PBXTextBookmark */;
+			3F05733B0AFE8014005BEAB0 /* PBXTextBookmark */ = 3F05733B0AFE8014005BEAB0 /* PBXTextBookmark */;
+			3F05733C0AFE8014005BEAB0 /* PBXTextBookmark */ = 3F05733C0AFE8014005BEAB0 /* PBXTextBookmark */;
+			3F05733D0AFE8014005BEAB0 /* PBXBookmark */ = 3F05733D0AFE8014005BEAB0 /* PBXBookmark */;
+			3F05733E0AFE8014005BEAB0 /* PBXTextBookmark */ = 3F05733E0AFE8014005BEAB0 /* PBXTextBookmark */;
+			3F05735F0AFF3DBD005BEAB0 /* PBXTextBookmark */ = 3F05735F0AFF3DBD005BEAB0 /* PBXTextBookmark */;
+			3F51CA680AF6080E00D7EDCC /* PBXTextBookmark */ = 3F51CA680AF6080E00D7EDCC /* PBXTextBookmark */;
+			3F51CA690AF6080E00D7EDCC /* PBXTextBookmark */ = 3F51CA690AF6080E00D7EDCC /* PBXTextBookmark */;
+			3F51CA9C0AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CA9C0AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CA9E0AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CA9E0AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CA9F0AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CA9F0AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CAA30AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CAA30AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CAA70AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CAA70AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CAA90AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CAA90AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CAAA0AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CAAA0AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CAAC0AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CAAC0AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CAAD0AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CAAD0AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CAAE0AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CAAE0AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CAAF0AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CAAF0AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CAB10AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CAB10AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CAB50AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CAB50AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CAB70AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CAB70AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CAC40AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CAC40AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CAC50AF610BA00D7EDCC /* PBXTextBookmark */ = 3F51CAC50AF610BA00D7EDCC /* PBXTextBookmark */;
+			3F51CB8B0AF68C8B00D7EDCC /* PBXTextBookmark */ = 3F51CB8B0AF68C8B00D7EDCC /* PBXTextBookmark */;
+			3F51CB8C0AF68C8B00D7EDCC /* PBXTextBookmark */ = 3F51CB8C0AF68C8B00D7EDCC /* PBXTextBookmark */;
+			3F51CB8F0AF68C8B00D7EDCC /* PBXTextBookmark */ = 3F51CB8F0AF68C8B00D7EDCC /* PBXTextBookmark */;
+			3F51CB900AF68C8B00D7EDCC /* PBXTextBookmark */ = 3F51CB900AF68C8B00D7EDCC /* PBXTextBookmark */;
+			3F51CB910AF68C8B00D7EDCC /* PBXTextBookmark */ = 3F51CB910AF68C8B00D7EDCC /* PBXTextBookmark */;
+			3F51CB920AF68C8B00D7EDCC /* PBXTextBookmark */ = 3F51CB920AF68C8B00D7EDCC /* PBXTextBookmark */;
+		};
+		sourceControlManager = 3F3586AA0AED660D009FE867 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C4D2A00A07FF563C00EDA198 /* setup.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {620, 1056}}";
+			sepNavSelRange = "{1290, 0}";
+			sepNavVisRect = "{{0, 482}, {620, 574}}";
+		};
+	};
+	C4D2A00E07FF576900EDA198 /* LogNotifier.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {620, 574}}";
+			sepNavSelRange = "{37, 0}";
+			sepNavVisRect = "{{0, 0}, {620, 574}}";
+			sepNavWindowFrame = "{{15, 27}, {982, 996}}";
+		};
+	};
+	C4D2A03507FF5BF800EDA198 /* LogNotifierAppDelegate.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {847, 1872}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {847, 537}}";
+		};
+	};
+	C4E30E3107FFA7A90043E6B0 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {847, 688}}";
+			sepNavSelRange = "{1348, 0}";
+			sepNavVisRect = "{{0, 0}, {847, 537}}";
+			sepNavWindowFrame = "{{15, 47}, {1154, 780}}";
+		};
+	};
+}
