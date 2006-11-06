@@ -1,5 +1,5 @@
 #
-#  FileMonitor.py
+#  $Id$
 #  LogNotifier
 #
 #  Created by Riko on 23/10/06.
@@ -24,6 +24,10 @@ class FileMonitor(object):
             self._file = codecs.open(f, encoding='iso8859-15', errors='replace')
         self._position_to_end()
         self.update()
+        
+    def getName(self):
+        '''We use this method to access the encoded name'''
+        return self.name.encode('iso8859-15', 'replace')
 
     def size(self):
         return os.fstat(self.fileno()).st_size
@@ -43,7 +47,7 @@ class FileMonitor(object):
     def readline(self, sz=-1):
         buf = self._file.readline(sz)
         if self._file.tell() == self.size(): self.update()
-        return buf
+        return buf.encode('iso8859-15', 'replace')
 
     def _position_to_end(self):
         self._file.seek(0, 2)

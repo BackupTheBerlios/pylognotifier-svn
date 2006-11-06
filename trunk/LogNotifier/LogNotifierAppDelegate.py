@@ -12,6 +12,9 @@ from Alarm import registerAlarm
 from FileObserver import fileObserverFactory
 from Notifier import notifierFactory
 
+# FUCK: This code is crap: I must use a notifier as soon as possible
+
+
 class LogNotifierAppDelegate(NibClassBuilder.AutoBaseClass):
     def init(self):        
         return self
@@ -55,6 +58,7 @@ class NotifierController(NibClassBuilder.AutoBaseClass):
         self.timer    = registerAlarm(self.fo)
         return self
     def reloadPreferences_(self, sender):
+        # ROTFL... how lame, you have to call this manually!
         self.timer.invalidate()
         self.fo    = fileObserverFactory(self.notifier, PreferenceModel())
         self.timer = registerAlarm(self.fo)

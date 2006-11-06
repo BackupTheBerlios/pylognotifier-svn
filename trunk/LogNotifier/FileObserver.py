@@ -1,5 +1,5 @@
 #
-#  FileObserver.py
+#  $Id$
 #  LogNotifier
 #
 #  Created by Riko on 23/10/06.
@@ -60,4 +60,4 @@ class FileObserver(object):
         for f, s in zip(self.files, self.sticky_flag):
             if f.is_modified():
                 for line in f:
-                    self.notifier.notify(logLabel, f.name, line, sticky=s)
+                    self.notifier.notify(logLabel, f.getName(), line, sticky=s)
