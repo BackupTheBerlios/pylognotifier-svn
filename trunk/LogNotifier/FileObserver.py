@@ -1,5 +1,5 @@
 #
-#  $Id$
+#  FileObserver.py
 #  LogNotifier
 #
 #  Created by Riko on 23/10/06.

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import sys, os
 from os.path import join, dirname 
 location = join(dirname(sys.argv[0]), '..')
@@ -21,6 +23,7 @@ from FileTestHelper import FileTestHelper, msg_template
 
 from FileMonitor import FileMonitor
 from FileObserver import FileObserver
+from Notifier import errorLabel, logLabel, infoLabel
 
 class MockNotifier(object):
     """This class is meant for testing and simulates a GrowlNotifier"""
@@ -56,7 +59,7 @@ class FileObserverTest(unittest.TestCase, FileTestHelper):
         self.fo.register(self.fm1)
         self.log(self.fn1)
         self.fo.alarm()
-        self.assertEqual(self.mn.notifications, [('logline', self.fn1, msg_template % (4, self.fn1), False)])
+        self.assertEqual(self.mn.notifications, [(logLabel, self.fn1, msg_template % (4, self.fn1), False)])
 
     def testTwoLines(self):
         self.fo.register(self.fm1, True)
@@ -64,10 +67,9 @@ class FileObserverTest(unittest.TestCase, FileTestHelper):
         self.log(self.fn1)
         self.log(self.fn2)
         self.fo.alarm()
-        
         self.assertEqual(self.mn.notifications,
-                         [('logline', self.fn1, msg_template % (4, self.fn1), True),
-                          ('logline', self.fn2, msg_template % (5, self.fn2), False)])
+                         [(logLabel, self.fn1, msg_template % (4, self.fn1), True),
+                          (logLabel, self.fn2, msg_template % (5, self.fn2), False)])
 
     def testFalseAlarm(self):
         self.fo.register(self.fm1)
@@ -76,7 +78,7 @@ class FileObserverTest(unittest.TestCase, FileTestHelper):
 
         self.assertEqual(self.mn.notifications, [])
         self.fo.alarm()
-        self.assertEqual(self.mn.notifications, [('logline', self.fn1, msg_template % (4, self.fn1), False) ])
+        self.assertEqual(self.mn.notifications, [(logLabel, self.fn1, msg_template % (4, self.fn1), False) ])
 
     def testThreeLines(self):
         self.fo.register(self.fm1)
@@ -87,10 +89,22 @@ class FileObserverTest(unittest.TestCase, FileTestHelper):
         self.fo.alarm()
         
         self.assertEqual(Set(self.mn.notifications),
-                         Set([('logline', self.fn1, msg_template % (4, self.fn1), False),
-                          ('logline', self.fn2, msg_template % (5, self.fn2), False),
-                          ('logline', self.fn1, msg_template % (6, self.fn1), False)]))
-
+                         Set([(logLabel, self.fn1, msg_template % (4, self.fn1), False),
+                          (logLabel, self.fn2, msg_template % (5, self.fn2), False),
+                          (logLabel, self.fn1, msg_template % (6, self.fn1), False)]))
+                          
+    def testMoreEncodings(self):
+        iso_8859_15_message = 'èéàò message\n'
+        another_message = '\xa9 èéàò message\n'
+        
+        self.fo.register(self.fm1, True)
+        self.log(self.fn1, iso_8859_15_message)
+        self.log(self.fn1, another_message)
+        self.fo.alarm()
+        self.assertEqual(self.mn.notifications,
+                         [(logLabel, self.fn1, iso_8859_15_message, True),
+                          (logLabel, self.fn1, another_message, True)])
+    
         
 if __name__ == '__main__':
     unittest.main()

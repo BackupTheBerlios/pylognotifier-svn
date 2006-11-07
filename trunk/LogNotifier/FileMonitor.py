@@ -1,5 +1,5 @@
 #
-#  $Id$
+#  FileMonitor.py
 #  LogNotifier
 #
 #  Created by Riko on 23/10/06.
@@ -17,11 +17,11 @@ def is_file(f):
 class FileMonitor(object):
     def __init__(self, f):
         if is_file(f):
-            self._file = codecs.EncodedFile(f, 'iso8859-15', errors='replace')
+            self._file = f #codecs.EncodedFile(f, 'iso8859-15', errors='replace')
             self.name = f.name
         else:
             self.name = f
-            self._file = codecs.open(f, encoding='iso8859-15', errors='replace')
+            self._file = open(f) #codecs.open(f, encoding='iso8859-15', errors='replace')
         self._position_to_end()
         self.update()
         
@@ -44,7 +44,9 @@ class FileMonitor(object):
     def readline(self, sz=-1):
         buf = self._file.readline(sz)
         if self._file.tell() == self.size(): self.update()
-        return buf.encode('iso8859-15', 'replace')
+        # This is the right thing to do things. Get raw bytes (and correct numbering)
+        # and encode them correctly only at last
+        return buf.decode('iso8859-15', 'replace').encode('iso8859-15', 'replace')
 
     def _position_to_end(self):
         self._file.seek(0, 2)
