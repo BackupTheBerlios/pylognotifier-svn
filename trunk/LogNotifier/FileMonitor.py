@@ -41,9 +41,6 @@ class FileMonitor(object):
     def fileno(self):
         return self._file.fileno()
 
-#    def read(self, n=-1):
-#        return self._file.read(n)
-        
     def readline(self, sz=-1):
         buf = self._file.readline(sz)
         if self._file.tell() == self.size(): self.update()

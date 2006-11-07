@@ -60,8 +60,16 @@ class FileMonitorTest(unittest.TestCase, FileTestHelper):
         self.log(self.fname)
         self.log(self.fname)
         self.assert_(fm.is_modified())
+        print fm.size(), fm._size
+        print fm.mtime(), fm._mtime
+        print fm._file.tell()
+        import pdb 
+        pdb.set_trace()
         self.assertEqual(fm.readline(), "Message no 4 file %s\n" % self.fname)
-        self.assert_(fm.is_modified())
+        print fm._file.tell()
+        print fm.size(), fm._size
+        print fm.mtime(), fm._mtime
+        #self.assert_(fm.is_modified())
         self.assertEqual(fm.readline(), "Message no 5 file %s\n" % self.fname)
         self.failIf(fm.is_modified())
     
