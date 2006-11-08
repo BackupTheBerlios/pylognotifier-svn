@@ -19,13 +19,13 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.3.0</string>
+	<string>0.3.2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>0.3.0</string>
+	<string>0.3.2</string>
     <key>CFBundleGetInfoString</key>
-    <string>LogNotifier, 0.3.0, Copyright 2006 Enrico Franchi</string>
+    <string>LogNotifier, 0.3.2, Copyright 2006 Enrico Franchi</string>
     <key>NSHumanReadableCopyright</key>
     <string>Copyright 2006 Enrico Franchi</string>
 	<key>LSHasLocalizedDisplayName</key>

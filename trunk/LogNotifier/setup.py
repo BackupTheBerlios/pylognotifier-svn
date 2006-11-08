@@ -59,7 +59,7 @@ infos = {
 'license'          : 'BSD license',
 'name'             : 'LogNotifier',
 'platforms'        : 'MacOS X',
-'version'          : '0.3',
+'version'          : '0.3.2',
 }
 
 py2app_options = {
