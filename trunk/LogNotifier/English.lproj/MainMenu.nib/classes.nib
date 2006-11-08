@@ -19,12 +19,7 @@
             }; 
             CLASS = PreferenceManager; 
             LANGUAGE = ObjC; 
-            OUTLETS = {
-                logList = NSTableView; 
-                regrowlButton = id; 
-                saveButton = id; 
-                window = NSWindow; 
-            }; 
+            OUTLETS = {applyButton = id; logList = NSTableView; window = NSWindow; }; 
             SUPERCLASS = NSObject; 
         }
     ); 

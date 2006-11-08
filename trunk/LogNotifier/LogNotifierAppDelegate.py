@@ -12,8 +12,7 @@ from Alarm import registerAlarm
 from FileObserver import fileObserverFactory
 from Notifier import notifierFactory
 
-# FUCK: This code is crap: I must use a notifier as soon as possible
-
+PREFERENCES_CHANGED = 'RKLN_PreferencesChanged'
 
 class LogNotifierAppDelegate(NibClassBuilder.AutoBaseClass):
     def init(self):        
@@ -22,7 +21,7 @@ class LogNotifierAppDelegate(NibClassBuilder.AutoBaseClass):
     def awakeFromNib(self):
         pass
     
-class NSTableViewDataSource(object):    
+class RKLNTableViewDataSource(object):    
     def tableView_objectValueForTableColumn_row_(self, tableView, tableColumn, row):
         '''Gets the nth element.
         
@@ -47,39 +46,47 @@ class NSTableViewDataSource(object):
         
         
 # Warning: we have to verify if this is implementation dependent        
-class PreferenceModel(PreferenceModel, NSTableViewDataSource):
+class PreferenceModel(PreferenceModel, RKLNTableViewDataSource):
     '''This way we are mixin in our Cocoa specific methods'''
     pass
     
 class NotifierController(NibClassBuilder.AutoBaseClass):
+    def awakeFromNib(self):
+        NSNotificationCenter.defaultCenter().addObserver_selector_name_object_(self, 
+            'notifiyPreferencesChanged:', PREFERENCES_CHANGED, None)
+        NSLog('NotificationController registered')
     def init(self):
         self.notifier = notifierFactory()
         self.fo       = fileObserverFactory(self.notifier, PreferenceModel())
         self.timer    = registerAlarm(self.fo)
         return self
-    def reloadPreferences_(self, sender):
-        # ROTFL... how lame, you have to call this manually!
-        self.timer.invalidate()
-        self.fo    = fileObserverFactory(self.notifier, PreferenceModel())
-        self.timer = registerAlarm(self.fo)
         
+    def notifiyPreferencesChanged_(self, notification):
+        self._setPreferenceModel(PreferenceModel())
+        
+    def reloadPreferences_(self, sender):
+        self._setPreferenceModel(PreferenceModel())
+
+    def _setPreferenceModel(self, pm):
+        self.timer.invalidate()
+        self.fo    = fileObserverFactory(self.notifier, pm)
+        self.timer = registerAlarm(self.fo)
+    
+    def __del__(self):
+        NSNotificationCenter.defaultCenter().removeObserver_(self)        
     
 class PreferenceManager(NibClassBuilder.AutoBaseClass):
     # the actual base class is NSObject
     # The following outlets are added to the class:
     # logList
     # window
-    # regrowlButton
-    # saveButton
+    # applyButton
 
     def init(self):
         self.model = PreferenceModel()
         self.modified = False
         return self
-        
-    def awakeFromNib(self):
-        pass
-        
+         
     def loadPreferences_(self, sender):
         self.model.loadPreferences()
         self.modified = False
@@ -87,11 +94,13 @@ class PreferenceManager(NibClassBuilder.AutoBaseClass):
                     
     def openWindow_(self, sender):
         self.window.makeKeyAndOrderFront_(self)
-        self._updateUI()
+        self.loadPreferences_(sender)
         
     def savePreferences_(self, sender):
         self.model.savePreferences()
         self.modified = False
+        NSNotificationCenter.defaultCenter().postNotificationName_object_userInfo_(
+            PREFERENCES_CHANGED, self.model, None)
         self._updateUI()
         
     def cancel_(self, sender):
@@ -113,18 +122,19 @@ class PreferenceManager(NibClassBuilder.AutoBaseClass):
         self._updateUI()
         
     def tableView_objectValueForTableColumn_row_(self, tableView, tableColumn, row):
-        return self.model.tableView_objectValueForTableColumn_row_(tableView, tableColumn, row)
+        return self.model.tableView_objectValueForTableColumn_row_(
+                        tableView, tableColumn, row)
         
     def numberOfRowsInTableView_(self, tableView):
         return self.model.numberOfRowsInTableView_(tableView)
         
     def tableView_setObjectValue_forTableColumn_row_(self, tableView, obj, tableColumn, row):
         self.modified = True
-        answ = self.model.tableView_setObjectValue_forTableColumn_row_(tableView, obj, tableColumn, row)
+        answ = self.model.tableView_setObjectValue_forTableColumn_row_(
+                        tableView, obj, tableColumn, row)
         self._updateUI()
         return answ
         
     def _updateUI(self):
-        self.regrowlButton.setEnabled_(not self.modified)
-        self.saveButton.setEnabled_(self.modified)
+        self.applyButton.setEnabled_(self.modified)
         self.logList.reloadData()
