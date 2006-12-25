@@ -11,6 +11,7 @@ from PreferenceModel import PreferenceModel
 from Alarm import registerAlarm
 from FileObserver import fileObserverFactory
 from Notifier import notifierFactory
+import Environment
 
 PREFERENCES_CHANGED = 'RKLN_PreferencesChanged'
 
@@ -47,7 +48,10 @@ class RKLNTableViewDataSource(object):
         
 # Warning: we have to verify if this is implementation dependent        
 class PreferenceModel(PreferenceModel, RKLNTableViewDataSource):
-    '''This way we are mixin in our Cocoa specific methods'''
+    '''PreferenceModel is mixed in with RKLNTableViewDataSource.
+    
+    This could be considered kind of Python black magic.
+    '''
     pass
     
 class NotifierController(NibClassBuilder.AutoBaseClass):

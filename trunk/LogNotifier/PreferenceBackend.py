@@ -6,8 +6,6 @@
 #  Copyright (c) 2006 Enrico Franchi. All rights reserved.
 #
 
-from CommonDefinitions import Log
-
 def preferenceBackendFactory():
     try:
         import Foundation

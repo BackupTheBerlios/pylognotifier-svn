@@ -6,7 +6,6 @@
 #  Copyright (c) 2006 Enrico Franchi. All rights reserved.
 #
 
-from CommonDefinitions import Log
 from PreferenceBackend import preferenceBackendFactory
 
 class EntryInfo(dict):

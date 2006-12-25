@@ -4,7 +4,7 @@
 #
 
 from PyObjCTools import NibClassBuilder, AppHelper
-from Foundation import NSBundle, NSLog, NSUserDefaults
+from Foundation import NSBundle, NSUserDefaults
 
 info = NSBundle.mainBundle().infoDictionary()[u'PyObjCXcode']
 
