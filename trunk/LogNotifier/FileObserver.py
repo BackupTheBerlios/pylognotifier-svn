@@ -7,6 +7,7 @@
 #
 
 from Notifier import errorLabel, logLabel, infoLabel
+import Foundation
 
 def fileObserverFactory(notifier, preferenceModel):
     from FileMonitor import FileMonitor

@@ -46,7 +46,7 @@ class FileMonitor(object):
         if self._file.tell() == self.size(): self.update()
         # This is the right thing to do things. Get raw bytes (and correct numbering)
         # and encode them correctly only at last
-        return buf.decode('iso8859-15', 'replace').encode('iso8859-15', 'replace')
+        return buf.decode('iso8859-15', 'replace').encode('utf-8')
 
     def _position_to_end(self):
         self._file.seek(0, 2)
