@@ -8,6 +8,8 @@
 	<string>LogNotifier</string>
 	<key>CFBundleExecutable</key>
 	<string>LogNotifier</string>
+	<key>CFBundleGetInfoString</key>
+	<string>LogNotifier, 0.3.3, Copyright 2006 Enrico Franchi</string>
 	<key>CFBundleIconFile</key>
 	<string>LogNotifier</string>
 	<key>CFBundleIdentifier</key>
@@ -23,11 +25,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>0.3.2</string>
-    <key>CFBundleGetInfoString</key>
-    <string>LogNotifier, 0.3.2, Copyright 2006 Enrico Franchi</string>
-    <key>NSHumanReadableCopyright</key>
-    <string>Copyright 2006 Enrico Franchi</string>
+	<string>0.3.3</string>
 	<key>LSHasLocalizedDisplayName</key>
 	<false/>
 	<key>NSAppleScriptEnabled</key>
